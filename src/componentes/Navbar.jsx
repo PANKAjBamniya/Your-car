@@ -42,8 +42,8 @@ const Navbar = ({ darkMode,handletheme }) => {
             ))}
           </div>
           <div className='flex items-center gap-2'>
-            <button className='bg-blue-500 rounded-sm py-2 px-5 text-white font-sans hover:bg-blue-900 duration-200'>Sign-Up</button>
-            <button className='bg-blue-500 rounded-sm py-2 px-5 text-white font-sans hover:bg-blue-900 duration-200'>Log-in</button>
+            {/* <button className='bg-blue-500 rounded-sm py-2 px-5 text-white font-sans hover:bg-blue-900 duration-200'>Sign-Up</button>
+            <button className='bg-blue-500 rounded-sm py-2 px-5 text-white font-sans hover:bg-blue-900 duration-200'>Log-in</button> */}
             <button 
             onClick={()=>{
               handletheme()
