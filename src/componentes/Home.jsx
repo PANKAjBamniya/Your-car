@@ -65,7 +65,7 @@ const Home = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5 }}
-            className="absolute left-1/2 transform -translate-x-1/2 bg-white p-4 rounded-xl shadow-lg flex gap-8"
+            className="absolute left-1/1 transform -translate-x-1/2 bg-white p-4 flex rounded-xl shadow-lg gap-8"
           >
             <div className="text-center">
               <p className="text-2xl font-bold text-blue-600">500+</p>
